@@ -1,0 +1,12 @@
+USING smashburnMain
+CREATE TABLE userTable(
+			userID INT NOT NULL AUTO-INCREMENT,
+			username VARCHAR(60),
+			password VARCHAR(60),
+			profile_pic VARCHAR(150),
+			user_type INT,
+			user_created DATE,
+			last_login DATE,
+			PRIMARY KEY ( userID )
+);
+		
