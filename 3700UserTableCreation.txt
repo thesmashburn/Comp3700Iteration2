@@ -9,4 +9,6 @@ CREATE TABLE userTable(
 			last_login DATE,
 			PRIMARY KEY ( userID )
 );
-		
+	
+INSERT INTO userTable( username, password, profile_pic, user_type) VALUES ("admin", "password", "https://goo.gl/uebMzh", 1);
+INSERT INTO userTable( username, password, profile_pic, user_type) VALUES ("cashier", "password", "https://goo.gl/uebMzh", 2);	
